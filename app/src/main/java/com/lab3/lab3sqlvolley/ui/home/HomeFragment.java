@@ -110,7 +110,7 @@ public class HomeFragment extends Fragment {
 
     });
 
-        MySingleton.getInstance(getContext()).addToRequestQueue(request);
+        MySingleton.getInstance(getContext()).addToRequestQueue(stringRequest);
 
       }
 
@@ -135,7 +135,7 @@ public class HomeFragment extends Fragment {
 
         });
 
-        MySingleton.getInstance(getContext()).addToRequestQueue(request);
+        MySingleton.getInstance(getContext()).addToRequestQueue(jsonObjectRequest);
 
     }
 
