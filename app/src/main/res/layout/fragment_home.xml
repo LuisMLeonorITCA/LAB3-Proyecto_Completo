@@ -4,17 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#03A9F4"
+    android:orientation="vertical"
     tools:context=".ui.home.HomeFragment">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="Navigation header"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_logo"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+
+
+
+
 
     <TextView
         android:id="@+id/text_home"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="340dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="150dp"
         android:textAlignment="center"
-        android:textSize="20sp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:text="App con Acceso a Base de datos MySQL\nSmartphone y Tablet con SO.
+        Android \n \n Modulo: Desarrollo de Aplicaciones usando
+        Tecnologias Emergentes \n \n Alumno: Luis Ernesto Merino Leonor SIS-21B \n \n Segundo año de Sistemas Informaticos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,7 +46,22 @@
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:layout_marginTop="380dp"
-       android:text="Probar"/>
+       android:text="BOTON DE PRUEBAS BASICAS VOLLEY"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textStyle="bold"
+        android:text="CICLO II-2020\nITCA-FEPADE"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"></TextView>
+
+
+
 
 
 </RelativeLayout>
