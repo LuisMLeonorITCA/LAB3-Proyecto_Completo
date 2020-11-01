@@ -27,6 +27,6 @@
     <fragment
         android:id="@+id/nav_categoria"
         android:name="com.lab3.lab3sqlvolley.ui.categorias.categorias"
-        android:label="fragment_categorias"
+        android:label="Registro Categorias"
         tools:layout="@layout/fragment_categorias" />
 </navigation>

@@ -15,6 +15,23 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
 
+    <string-array name="estadocategorias">
+        <item>Seleccione Estado Categorias </item>
+        <item>1</item>
+        <item>0 </item>
+    </string-array>
+
+    <string-array name="estadoproductos">
+        <item>Seleccione Estado Producto </item>
+        <item>1</item>
+        <item>0 </item>
+    </string-array>
+
+    <string-array name="sp_fk">
+        <item>Seleccione Estado Categoria </item>
+    </string-array>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
