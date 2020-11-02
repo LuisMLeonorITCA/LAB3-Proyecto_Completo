@@ -188,7 +188,7 @@ public class productos extends Fragment {
                 listaCategorias = new ArrayList<dto_categorias>();
                 lista = new ArrayList<String>();
                 lista.add("Seleccione Categoria");
-                String url  = Setting_VAR.URL_consultaAllCategorias;
+                String url  = Setting_VAR.URL_CONSULTAR_CATEGORIAS;
                 StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                         new Response.Listener<String>() {
                             @Override
@@ -243,7 +243,7 @@ public class productos extends Fragment {
                                         final String categoria)
             {
 
-                StringRequest stringRequest = new StringRequest(Request.Method.POST, Setting_VAR.URL_registrar_productos,
+                StringRequest stringRequest = new StringRequest(Request.Method.POST, Setting_VAR.URL_GUARDAR_CATEGORIAS,
                         new Response.Listener<String>() {
                             @Override            public void onResponse(String response) {
                                 JSONObject requestJSON = null;

@@ -3,12 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_login">
 
     <fragment
-        android:id="@+id/nav_home"
+        android:id="@+id/nav_login"
         android:name="com.lab3.lab3sqlvolley.ui.home.HomeFragment"
         android:label="@string/menu_home"
+        tools:layout="@layout/activity_login" />
+
+
+    <fragment
+        android:id="@+id/nav_pruebas"
+        android:name="com.lab3.lab3sqlvolley.ui.home.HomeFragment"
+        android:label="@string/menu_pruebas"
         tools:layout="@layout/fragment_home" />
 
     <fragment
@@ -29,4 +36,11 @@
         android:name="com.lab3.lab3sqlvolley.ui.categorias.categorias"
         android:label="Registro Categorias"
         tools:layout="@layout/fragment_categorias" />
+
+    <fragment
+        android:id="@+id/nav_productos"
+        android:name="com.lab3.lab3sqlvolley.ui.categorias.categorias"
+        android:label="Registro de Productos"
+        tools:layout="@layout/fragment_productos" />
+
 </navigation>
